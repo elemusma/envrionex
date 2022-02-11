@@ -1,0 +1,7 @@
+.socialIcon path {
+  transition: all 0.25s ease-in-out;
+  fill: white;
+}
+.socialIcon:hover path {
+  fill: #f26522;
+}

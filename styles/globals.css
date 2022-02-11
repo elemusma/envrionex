@@ -1,3 +1,8 @@
+:root {
+  --accent: #f26522;
+  --accent-blue: #0f2849;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +18,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.text-accent {
+  color: var(--accent);
+}
+.bg-accent {
+  background: var(--accent);
+}
+.bg-accent-blue {
+  background: var(--accent-blue);
+}
+.divider {
+  background: var(--accent);
+  height: 8px;
+  width: 200px;
+  margin: 10px 0;
 }
